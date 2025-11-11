@@ -11,7 +11,7 @@ data = {
         "Frankrike": ["Paris",2.161],
         "Italia": ["Roma", 2.873]
         }
-# Tar inn et land frabrukeren. #
+# Tar inn et land fra brukeren. #
 land = input('Skriv inn et land:')
 if land in data:
     hovedstad, innbyggere = data[land]
